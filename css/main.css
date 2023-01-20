@@ -1,0 +1,88 @@
+:root {
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+/*************************************************/
+
+.container {
+  max-width: 130rem;
+  /* padding: 0 2.4rem;
+  margin: 0 auto; */
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.grid {
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 3.2rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.pic-marketing,
+.img-background,
+.section-pricing,
+.section-feature,
+.section-us-most,
+.section-icons {
+  margin-top: 9.6rem;
+  /* margin-bottom: 9.6rem; */
+}
+
+.mark-download {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fd4469;
+  margin-bottom: 1.2rem;
+}
+ul {
+  list-style: none;
+}
+
+/****************************************/
+/* title and title-info */
+/****************************************/
+.title {
+  font-size: 4.4rem;
+  font-weight: 900;
+  color: #0e1133;
+}
+.title-info {
+  color: #606367;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 1.2rem;
+  line-height: 1.4;
+}
